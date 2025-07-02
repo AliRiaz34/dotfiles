@@ -1,0 +1,18 @@
+"group/leaf-inverse": {
+    "orientation": "inherit",
+    "modules": [
+    "hyprland/workspaces",
+    "custom/updates",
+    "custom/weather",
+    "clock",
+    "backlight",
+    "pulseaudio",
+    "battery",
+    "power-profiles-daemon",
+    "custom/swaync",
+    "custom/spotify"
+    "custom/power"
+
+    ]
+  },
+
