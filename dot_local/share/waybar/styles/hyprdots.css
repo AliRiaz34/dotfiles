@@ -252,15 +252,15 @@ tooltip {
 }
 
 #clock, #network, #battery, #custom-dunst, #custom-keybindhint,
-#backlight, #custom-updates, #custom-power, #pulseaudio,
-#power-profiles-daemon{
+#custom-updates, #power-profiles-daemon, #pulseaudio#microphone, #custom-gamemode, #idle_inhibitor{
      font-size: 13px;
 }
 
-#custom-spotify {
-    font-size: 11px;
+#custom-power {
+    font-size: 16px;
 }
 
-#custom-weather {
+#custom-spotify, #custom-weather, #custom-battery,
+#backlight, #pulseaudio {
     font-size: 12px;
 }

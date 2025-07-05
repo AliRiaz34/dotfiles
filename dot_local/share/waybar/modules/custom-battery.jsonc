@@ -1,0 +1,7 @@
+{
+    "custom/battery": {
+    "exec": "~/.local/lib/hyde/battery.sh icon",
+    "interval": 10,
+    "format": "{}"
+    }
+}

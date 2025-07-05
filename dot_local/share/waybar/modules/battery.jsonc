@@ -5,11 +5,23 @@
       // "warning": 30,
       // "critical": 20
     },
-    "format": "{icon} {capacity}%",
+    "format": "{icon}%",
     "rotate": 0,
-    "format-charging": " {capacity}%",
-    "format-plugged": " {capacity}%",
-    "format-alt": "{time} {icon}",
-    "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
+    "format-charging": "{capacity}%",
+    "format-plugged": "󰁹 [██████████] {capacity}%",
+    "format-alt": "{icon}",
+    "format-icons": [
+      "󰂎 [░░░░░░░░░░]",
+      "󰁺 [█░░░░░░░░░]",
+      "󰁻 [██░░░░░░░░]",
+      "󰁼 [███░░░░░░░]",
+      "󰁽 [████░░░░░░]",
+      "󰁾 [█████░░░░░]",
+      "󰁿 [██████░░░░]",
+      "󰂀 [███████░░░]",
+      "󰂁 [████████░░]",
+      "󰂂 [█████████░]",
+      "󰁹 [██████████]"
+    ]
   }
 }

@@ -1,23 +1,35 @@
 {
   "pulseaudio": {
-    "format": "{icon} {volume}",
+    "format": "{icon}",
     "rotate": 0,
-    "format-muted": "婢",
+    "format-muted": "󰖁 [░░░░░░░░░░]",
     "on-click": "pavucontrol -t 3",
     "on-click-right": "hyde-shell volumecontrol -s ''",
     "on-click-middle": "hyde-shell volumecontrol -o m",
-    "on-scroll-up": "hyde-shell volumecontrol -o i",
-    "on-scroll-down": "hyde-shell volumecontrol -o d",
-    "tooltip-format": "{icon} {desc} // {volume}%",
-    "scroll-step": 5,
+    "scroll-step": 1,
     "format-icons": {
-      "headphone": "",
-      "hands-free": "",
-      "headset": "",
-      "phone": "",
-      "portable": "",
-      "car": "",
-      "default": ["", "", ""]
+      "default":[
+        " [░░░░░░░░░░]", //0
+        " [▓░░░░░░░░░]", //5
+        " [█░░░░░░░░░]", //10
+        " [█▓░░░░░░░░]", //15
+        " [██░░░░░░░░]", //20
+        " [██▓░░░░░░░]", //25
+        " [███░░░░░░░]", //30
+        " [███▓░░░░░░]", //35
+        " [████░░░░░░]", //40
+        " [████▓░░░░░]", //45
+        " [█████░░░░░]", //50
+        " [█████▓░░░░]", //55
+        " [██████░░░░]", //60
+        " [██████▓░░░]", //65
+        " [███████░░░]", //70
+        " [███████▓░░]", //75
+        " [████████░░]", //80
+        " [█████████░]", //90
+        " [█████████▓]", //90
+        " [██████████]" //100
+      ]
     }
   }
 }

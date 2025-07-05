@@ -1,6 +1,6 @@
 {
   "custom/dunst": {
-    "format": "{icon} {0}",
+    "format": "{icon}", //{0} is number
     "rotate": 0,
     "format-icons": {
       "notification": "<span foreground='red'><sup></sup></span>",

@@ -24,6 +24,7 @@
         "/home/whym/.local/share/waybar/modules/idle_inhibitor.jsonc",
         "/home/whym/.local/share/waybar/modules/wlr-taskbar.jsonc",
         "/home/whym/.local/share/waybar/modules/custom-cliphist.jsonc",
+        "/home/whym/.local/share/waybar/modules/custom-battery.jsonc",
         "/home/whym/.local/share/waybar/modules/custom-gpuinfo#amd.jsonc",
         "/home/whym/.local/share/waybar/modules/custom-cava.jsonc",
         "/home/whym/.local/share/waybar/modules/battery.jsonc",

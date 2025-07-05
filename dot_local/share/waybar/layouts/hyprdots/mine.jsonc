@@ -21,7 +21,8 @@
         "orientation": "inherit",
         "modules": [
         "custom/power",
-        "custom/weather"
+        "custom/weather",
+        "hyprland/workspaces"
         ]
     },
     "group/pill#left2": {
@@ -35,34 +36,30 @@
     ],
     "group/pill#center": {
         "modules": [
-            "clock"
+            "custom/gamemode",
+            "idle_inhibitor",
+            "clock",
+            "custom/dunst"
         ],
         "orientation": "inherit"
     },
     "modules-right": [
         "group/pill#right1",
-        "group/pill#right2",
-        "group/pill#right3"
+        "group/pill#right2"
 
     ],
     "group/pill#right1": {
         "modules": [
-            "hyprland/workspaces",
-            "custom/dunst",
-            "custom/updates"
+            "backlight",
+            "pulseaudio",
+            "custom/battery"
         ],
         "orientation": "inherit"
     },
     "group/pill#right2": {
         "modules": [
-            "pulseaudio",
-            "backlight",
-            "battery"
-        ],
-        "orientation": "inherit"
-    },
-    "group/pill#right3": {
-        "modules": [
+            "custom/updates",
+            "tray",
             "network",
             "power-profiles-daemon",
             "pulseaudio#microphone",
