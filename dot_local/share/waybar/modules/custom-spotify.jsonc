@@ -4,7 +4,7 @@
     "format": "{}",
     "rotate": 0,
     "return-type": "json",
-    "on-click": "pgrep spotify > /dev/null && playerctl play-pause --player spotify || (gtk-launch spotify)",
+    "on-click": "playerctl play-pause --player spotify",
     "on-click-middle": "playerctl stop --player spotify",
     "on-scroll-up": "hyde-shell volumecontrol -p spotify i",
     "on-scroll-down": "hyde-shell volumecontrol -p spotify d",
