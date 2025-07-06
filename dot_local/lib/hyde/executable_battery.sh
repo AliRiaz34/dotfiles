@@ -131,5 +131,5 @@ else
     for format in "${formats[@]}"; do
         output_format "$format"
     done
-    echo
+    echo ""
 fi
