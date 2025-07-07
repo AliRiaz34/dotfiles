@@ -251,12 +251,12 @@ tooltip {
     min-width: 1.11em;
 }
 
-#clock, #network, #battery, #custom-dunst, #custom-keybindhint,
+#network, #battery, #custom-dunst, #custom-keybindhint,
 #custom-updates, #power-profiles-daemon, #pulseaudio#microphone, #custom-gamemode, #idle_inhibitor, #custom-weather{
      font-size: 13px;
 }
 
-#custom-power {
+#custom-power, #clock {
     font-size: 16px;
 }
 

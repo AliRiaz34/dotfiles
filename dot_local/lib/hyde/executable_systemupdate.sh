@@ -76,7 +76,7 @@ EOF
 echo "$upgrade_info" >"$temp_file"
 # Show tooltip
 if [ $upd -eq 0 ]; then
-    upd="" #Remove Icon completely
+    upd=" " #Remove Icon completely
     # upd="󰮯"   #If zero Display Icon only
     echo "{\"text\":\"$upd\", \"tooltip\":\" Packages are up to date\"}"
 else
