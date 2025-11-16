@@ -20,12 +20,14 @@
         "/home/whym/.local/share/waybar/modules/custom-clipboard.jsonc",
         "/home/whym/.local/share/waybar/modules/memory.jsonc",
         "/home/whym/.local/share/waybar/modules/mpris.jsonc",
+        "/home/whym/.local/share/waybar/modules/custom-spotify-loop.jsonc",
         "/home/whym/.local/share/waybar/modules/hyprland-window.jsonc",
         "/home/whym/.local/share/waybar/modules/idle_inhibitor.jsonc",
         "/home/whym/.local/share/waybar/modules/wlr-taskbar.jsonc",
         "/home/whym/.local/share/waybar/modules/custom-cliphist.jsonc",
         "/home/whym/.local/share/waybar/modules/custom-battery.jsonc",
         "/home/whym/.local/share/waybar/modules/custom-gpuinfo#amd.jsonc",
+        "/home/whym/.local/share/waybar/modules/custom-spotify-replay.jsonc",
         "/home/whym/.local/share/waybar/modules/custom-cava.jsonc",
         "/home/whym/.local/share/waybar/modules/battery.jsonc",
         "/home/whym/.local/share/waybar/modules/backlight.jsonc",
@@ -40,6 +42,7 @@
         "/home/whym/.local/share/waybar/modules/custom-hyde-menu.jsonc",
         "/home/whym/.local/share/waybar/modules/cava.jsonc",
         "/home/whym/.local/share/waybar/modules/custom-sensorsinfo.jsonc",
+        "/home/whym/.local/share/waybar/modules/custom-spotify-skip.jsonc",
         "/home/whym/.local/share/waybar/modules/pulseaudio.jsonc",
         "/home/whym/.local/share/waybar/modules/custom-gpuinfo#intel.jsonc",
         "/home/whym/.local/share/waybar/modules/pulseaudio#microphone.jsonc",
@@ -52,6 +55,7 @@
         "/home/whym/.local/share/waybar/modules/custom-gpuinfo#nvidia.jsonc",
         "/home/whym/.local/share/waybar/modules/custom-powermenu.jsonc",
         "/home/whym/.local/share/waybar/modules/wlr-taskbar#windows.jsonc",
+        "/home/whym/.local/share/waybar/modules/custom-gammastep.jsonc",
         "/home/whym/.local/share/waybar/modules/custom-gamemode.jsonc",
         "/home/whym/.local/share/waybar/modules/custom-power.jsonc",
         "/home/whym/.local/share/waybar/modules/custom-wallchange.jsonc",
@@ -76,6 +80,7 @@
     },
     "tray": {
         "icon-size": 16,
-        "icon-size-multiplier": 1.6
+        "icon-size-multiplier": 1.6,
+        "all-outputs": true
     }
 }

@@ -3,5 +3,7 @@
     "exec": "~/.local/lib/hyde/battery.sh icon",
     "interval": 10,
     "format": "{}",
-    }
+    "tooltip": true,
+    "tooltip-format": "Battery: {} "
+    }   
 }

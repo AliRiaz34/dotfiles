@@ -75,7 +75,7 @@ def create_tooltip_text(
 def format_artist_track(artist, track, playing, max_length):
     # Use the appropriate prefix based on playback status
     prefix = prefix_playing if playing else prefix_paused
-    prefix_separator = "  "
+    prefix_separator = "  " if prefix else ""
     full_length = len(artist + track)
 
     if track and not artist:
@@ -99,7 +99,7 @@ def format_artist_track(artist, track, playing, max_length):
             f"{prefix}{prefix_separator}<i>{artist}</i>{artist_track_separator}<b>{track}</b>"
         )
     else:
-        output_text = "<b>Nothing playing</b>"
+        output_text = "<b>loadin..</b>"
     return output_text
 
 
@@ -259,10 +259,10 @@ def main():
 
     # Pull values from environment variables
     # You can configure these in ~/.config/hyde/config.toml
-    prefix_playing = os.getenv("MEDIAPLAYER_PREFIX_PLAYING", "")
-    prefix_paused = os.getenv("MEDIAPLAYER_PREFIX_PAUSED", "  ")
+    prefix_playing = os.getenv("MEDIAPLAYER_PREFIX_PLAYING", "")
+    prefix_paused = os.getenv("MEDIAPLAYER_PREFIX_PAUSED", "")
     max_length_module = int(os.getenv("MEDIAPLAYER_MAX_LENGTH", "70"))
-    standby_text = os.getenv("MEDIAPLAYER_STANDBY_TEXT", "  Music")
+    standby_text = os.getenv("MEDIAPLAYER_STANDBY_TEXT", " Spotify")
     artist_track_separator = os.getenv("MEDIAPLAYER_ARTIST_TRACK_SEPARATOR", "  ")
 
     # Initialize tooltip colors

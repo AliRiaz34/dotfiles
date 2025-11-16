@@ -252,11 +252,16 @@ tooltip {
 }
 
 #network, #battery, #custom-dunst, #custom-keybindhint,
-#custom-updates, #power-profiles-daemon, #pulseaudio#microphone, #custom-gamemode, #idle_inhibitor, #custom-weather{
+#custom-updates, #power-profiles-daemon, #pulseaudio#microphone, #custom-gamemode, #idle_inhibitor, #custom-weather {
      font-size: 13px;
 }
 
-#custom-power, #clock {
+#custom-spotify-loop {
+    font-size: 14px;
+}
+
+#custom-power, #clock, #custom-spotify-skip,
+#custom-spotify-replay {
     font-size: 16px;
 }
 

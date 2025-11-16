@@ -66,7 +66,7 @@ charging_icons=(
       " [██████████]"
       )
 discharging_icons=(
-      "\033󰂎 [▓░░░░░░░░░]"
+      "AAAARRRRRGGGGG"
       "󰁺 [█░░░░░░░░░]"
       "󰁻 [██░░░░░░░░]"
       "󰁼 [███░░░░░░░]"
@@ -133,3 +133,4 @@ else
     done
     echo ""
 fi
+

@@ -28,7 +28,10 @@
     "group/pill#left2": {
         "orientation": "inherit",
         "modules": [
-            "custom/spotify"
+            "custom/spotify-replay",
+            "custom/spotify",
+            "custom/spotify-skip",
+            "custom/spotify-loop"
         ]
     },
     "modules-center": [
@@ -37,9 +40,9 @@
     "group/pill#center": {
         "modules": [
             "custom/gamemode",
+            "custom/gammastep",
             "idle_inhibitor",
-            "clock",
-            "custom/dunst"
+            "clock"
         ],
         "orientation": "inherit"
     },
@@ -61,8 +64,6 @@
             "custom/updates",
             "tray",
             "network",
-            "power-profiles-daemon",
-            "pulseaudio#microphone",
             "custom/keybindhint"
         ],
         "orientation": "inherit"

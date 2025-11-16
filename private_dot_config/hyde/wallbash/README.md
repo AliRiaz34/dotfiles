@@ -1,4 +1,4 @@
-# Dcol and Wallbash
+Dcol and Wallbash
 
 ## Overview
 
